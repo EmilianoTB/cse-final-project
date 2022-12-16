@@ -22,14 +22,14 @@ FIELD_LEFT = 0
 FIELD_RIGHT = SCREEN_WIDTH
 
 # FONT
-FONT_FILE = r"pong/assets/fonts/zorque.otf"
+FONT_FILE = r"assets/fonts/zorque.otf"
 FONT_SMALL = 32
 FONT_LARGE = 48
 
 # SOUND
-BOUNCE_SOUND = r"pong/assets/sounds/boing.mp3"
-WELCOME_SOUND = r"pong/assets/sounds/start.mp3"
-OVER_SOUND = r"pong/assets/sounds/over.mp3"
+BOUNCE_SOUND = r"assets/sounds/boing.mp3"
+WELCOME_SOUND = r"assets/sounds/start.mp3"
+OVER_SOUND = r"assets/sounds/over.mp3"
 
 # TEXT
 ALIGN_CENTER = 0
@@ -59,7 +59,7 @@ IN_PLAY = 3
 GAME_OVER = 4
 
 # LEVELS
-LEVEL_FILE = ("pong/assets/data/level-{:03}.txt")
+LEVEL_FILE = ("assets/data/level-{:03}.txt")
 BASE_LEVELS = 5
 
 # -------------------------------------------------------------------------------------------------- 
@@ -98,21 +98,21 @@ SCORE_FORMAT2 = "LIVES PLAYER 2: {}"
 
 # BALL
 BALL_GROUP = "balls"
-BALL_IMAGE = r"pong/assets/images/ball_pong.png"
+BALL_IMAGE = r"assets/images/ball_pong.png"
 BALL_WIDTH = 28
 BALL_HEIGHT = 28
 BALL_VELOCITY = 6
 
 # RACKET
 RACKET_GROUP = "rackets"
-RACKET_IMAGES = ["pong/assets/images/red_pong_new.png"]
+RACKET_IMAGES = ["assets/images/red_pong_new.png"]
 RACKET_WIDTH = 106
 RACKET_HEIGHT = 28
 RACKET_RATE = 6
 RACKET_VELOCITY = 7
 
 RACKET_GROUP_2 = "rackets2"
-RACKET_IMAGES2 = ["pong/assets/images/blue_pong.png"]
+RACKET_IMAGES2 = ["assets/images/blue_pong.png"]
 RACKET_WIDTH = 106
 RACKET_HEIGHT = 28
 RACKET_RATE = 6
@@ -121,10 +121,10 @@ RACKET_VELOCITY = 7
 # BRICK
 BRICK_GROUP = "bricks"
 BRICK_IMAGES = {
-    "b": [f"pong/assets/images/{i:03}.png" for i in range(10,19)],
-    "g": [f"pong/assets/images/{i:03}.png" for i in range(20,29)],
-    "p": [f"pong/assets/images/{i:03}.png" for i in range(30,39)],
-    "y": [f"pong/assets/images/{i:03}.png" for i in range(40,49)]
+    "b": [f"assets/images/{i:03}.png" for i in range(10,19)],
+    "g": [f"assets/images/{i:03}.png" for i in range(20,29)],
+    "p": [f"assets/images/{i:03}.png" for i in range(30,39)],
+    "y": [f"assets/images/{i:03}.png" for i in range(40,49)]
 }
 BRICK_WIDTH = 80
 BRICK_HEIGHT = 28
